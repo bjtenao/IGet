@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-texttemplet>
+	<mtexttemplet>
+		<name>thread@forum.book.sina</name>
+		<siteDomain>sina.com.cn</siteDomain>
+		<urlFormats>http://forum.book.sina.com.cn/forum[*].html</urlFormats>
+		<templetText>expression=&lt;tbody id="[*]thread_[$]" class="author_thread_[$]" &gt;&lt;tr class='test'&gt;&lt;td class="folder"&gt;[*]&lt;/td&gt;&lt;td class="icon" &gt;[*]&lt;/td&gt;&lt;th id="subject_[$]"[*]&gt;[*]&lt;span id="thread_[$]"&gt;&lt;a href="[*]"  target="_blank"&gt;[*]&lt;/a&gt;&lt;/span&gt;[*]&lt;/th&gt;&lt;td class="author"&gt;&lt;cite&gt;&lt;a href="[*]"&gt;[*]&lt;/a&gt;&lt;/cite&gt;&lt;em&gt;[*]&lt;/em&gt;&lt;/td&gt;&lt;td class="nums"&gt;[*]&lt;/td&gt;&lt;td class="lastpost"&gt;&lt;em&gt;&lt;a href="[*]"&gt;[*]&lt;/a&gt;&lt;/em&gt;&lt;cite&gt;by &lt;a href="[*]"&gt;[*]&lt;/a&gt;&lt;/cite&gt;
+
+expression.firstUnique=true 
+expression.matchMaxLen=4000
+
+bbs.topic=&lt;$10$&gt;
+
+bbs.topicid=&lt;$1$&gt;
+bbs.sub=&lt;$15$&gt;,0 
+bbs.view=&lt;$15$&gt;,1
+
+bbs.lastmodified=&lt;$17$&gt;
+bbs.lastmodified.style=dateformat
+bbs.lastmodifiedformat=yyyy-M-d H:m
+
+bbs.lastmodified.autoAdjust=false //时间字符串按格式自动调整，去掉两头多余字符
+bbs.url=http://forum.book.sina.com.cn/thread-&lt;$1$&gt;-1-1.html
+
+bbs.article.numOfPage=20
+bbs.article.pageExpr=http://forum.book.sina.com.cn/thread-&lt;$1$&gt;-&lt;$PageNo$&gt;-1.html
+
+
+bbs.article.startPageNo=1 
+bbs.article.PageStep=1 
+subNum.includeTopicPost =false 
+
+
+pagelink.setAnalysePageLink=false
+pagelink.maxnum=5
+pagelink.postMethod=false
+linkanalyse=false
+ignoreBlankWhenMatch=true
+topicInEachPostsPage=false</templetText>
+		<parseClass>com.zhongsou.ispider.text.ana.BBSTopicAna_ExprMatch0</parseClass>
+		<templetType>1</templetType>
+		<sysTemplet>false</sysTemplet>
+	</mtexttemplet>
+	<mtexttemplet>
+		<name>post@book.sina</name>
+		<siteDomain>sina.com.cn</siteDomain>
+		<urlFormats>http://forum.book.sina.com.cn/viewthread.php?tid=[*]
+http://forum.book.sina.com.cn/thread-[*]</urlFormats>
+		<templetText>expression=&lt;table id="pid[*]&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="td_line1"&gt;[*]&lt;div class="myInfo"&gt;&lt;div class="myInfo_up"&gt; &lt;a href="[*]" target="_blank" class="f14"&gt;[*]&lt;/a&gt;[*]发表于：[*]&lt;/[*]&lt;/tr&gt;&lt;tr&gt;&lt;td style="overflow:hidden;"&gt;&lt;div class="mybbs_cont" &gt;[*]&lt;div class="cont f14" id="postmessage_[*]"&gt;[*]&lt;/div&gt;
+
+content=&lt;$9$&gt;
+time=&lt;$5$&gt;
+time.style=dateformat
+time.format=yyyy-MM-dd HH:mm
+author=&lt;$3$&gt;
+
+author_url=&lt;$2$&gt;
+
+ignoreBlankWhenMatch=true
+expression.firstUnique=true
+expression.matchMaxLen=0</templetText>
+		<parseClass>com.zhongsou.ispider.text.bbspost.BBSPostAna_EM0</parseClass>
+		<templetType>1</templetType>
+		<sysTemplet>false</sysTemplet>
+	</mtexttemplet>
+</app-texttemplet>

@@ -1,0 +1,4 @@
+/iget6/web-mng/bin/startup.bat
+/iget6/isearch-bin/isearch.exe
+/iget6/web/bin/startup.bat
+/iget6/spider/startup.bat

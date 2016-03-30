@@ -1,0 +1,16 @@
+nat server 0 protocol tcp global 111.75.230.147 3389 inside 192.168.4.253 3389
+ nat server 1 protocol tcp global 111.75.230.148 8080 inside 192.168.4.242 8080
+ nat server 2 protocol tcp global 111.75.230.147 8080 inside 192.168.4.253 8080
+ nat server 3 protocol tcp global 111.75.230.147 www inside 192.168.4.253 www
+ nat server 4 protocol tcp global 111.75.230.148 3389 inside 192.168.4.242 3389
+ nat server 5 protocol tcp global 111.75.230.148 www inside 192.168.4.242 www
+ nat server 6 protocol tcp global 111.75.230.149 3389 inside 192.168.4.243 3389
+ nat server 7 protocol tcp global 111.75.230.150 3389 inside 192.168.4.244 3389
+ nat server 8 protocol tcp global 111.75.230.151 3389 inside 192.168.4.241 3389
+ nat server 9 protocol tcp global 111.75.230.152 3389 inside 192.168.4.246 3389
+ nat server 10 protocol tcp global 111.75.230.153 3389 inside 192.168.4.245 3389
+ nat server 11 protocol tcp global 111.75.230.154 3389 inside 192.168.4.249 3389
+ nat server 12 protocol tcp global 111.75.230.155 3389 inside 192.168.4.252 3389
+ nat server 13 protocol tcp global 111.75.230.156 3389 inside 192.168.4.250 3389
+ nat server 14 protocol tcp global 111.75.230.157 3389 inside 192.168.4.248 3389
+ nat server 15 protocol tcp global 111.75.230.158 3389 inside 192.168.4.247 3389

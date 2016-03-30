@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-site>
+	<msite>
+		<name>新闻@sina</name>
+		<address>http://news.sina.com.cn/</address>
+		<linkFormat>http://[*].sina.com.cn/[*].shtml</linkFormat>
+		<depth>3</depth>
+		<downThreadNum>3</downThreadNum>
+		<startTime>2012-08-14 17:21:28</startTime>
+		<interMinute>10</interMinute>
+		<standMinute>20</standMinute>
+		<ServerAuth>false</ServerAuth>
+		<userBySA />
+		<pwdBySA />
+		<PageAuth>false</PageAuth>
+		<sendTypeByPA>1</sendTypeByPA>
+		<mainAddressByPA />
+		<loginAddressByPA />
+		<userByPA />
+		<userFieldByPA />
+		<pwdByPA />
+		<pwdFieldByPA />
+		<useProxy>false</useProxy>
+		<proxyAddress />
+		<proxyPort>80</proxyPort>
+		<proxyUser />
+		<proxyPwd />
+		<status>1</status>
+		<charset />
+		<advancedConfig>domain_level=商业全国
+channel_category=国内</advancedConfig>
+		<siteType>0</siteType>
+		<addressType>0</addressType>
+		<filterLinkFormat />
+		<overDomain>false</overDomain>
+		<limitDownDays>0</limitDownDays>
+		<keywordsFilter>false</keywordsFilter>
+		<keywordsExp />
+		<autoAnalyze>true</autoAnalyze>
+		<useZSTemplet>true</useZSTemplet>
+		<spiderName />
+		<dateAnalyzeType>0</dateAnalyzeType>
+		<typeID>1</typeID>
+		<categoryType>0</categoryType>
+		<categoryID>0</categoryID>
+		<templetVersion>0</templetVersion>
+		<msitetype>
+			<name>缺省类别</name>
+			<remark>系统默认类别,您可以创建其他的相关类别</remark>
+		</msitetype>
+	</msite>
+	<msite>
+		<name>新浪杂谈@book.sina</name>
+		<address>http://forum.book.sina.com.cn/forum-51-1.html</address>
+		<linkFormat />
+		<depth>3</depth>
+		<downThreadNum>2</downThreadNum>
+		<startTime>2012-08-17 16:45:29</startTime>
+		<interMinute>10</interMinute>
+		<standMinute>20</standMinute>
+		<ServerAuth>false</ServerAuth>
+		<userBySA />
+		<pwdBySA />
+		<PageAuth>false</PageAuth>
+		<sendTypeByPA>1</sendTypeByPA>
+		<mainAddressByPA />
+		<loginAddressByPA />
+		<userByPA />
+		<userFieldByPA />
+		<pwdByPA />
+		<pwdFieldByPA />
+		<useProxy>false</useProxy>
+		<proxyAddress />
+		<proxyPort>80</proxyPort>
+		<proxyUser />
+		<proxyPwd />
+		<status>1</status>
+		<charset />
+		<advancedConfig>channel_category=社会
+domain_level=商业全国</advancedConfig>
+		<siteType>1</siteType>
+		<addressType>0</addressType>
+		<filterLinkFormat />
+		<overDomain>false</overDomain>
+		<limitDownDays>0</limitDownDays>
+		<keywordsFilter>false</keywordsFilter>
+		<keywordsExp />
+		<autoAnalyze>true</autoAnalyze>
+		<useZSTemplet>true</useZSTemplet>
+		<spiderName />
+		<dateAnalyzeType>0</dateAnalyzeType>
+		<typeID>1</typeID>
+		<categoryType>0</categoryType>
+		<categoryID>0</categoryID>
+		<templetVersion>0</templetVersion>
+		<msitetype>
+			<name>缺省类别</name>
+			<remark>系统默认类别,您可以创建其他的相关类别</remark>
+		</msitetype>
+	</msite>
+	<msite>
+		<name>博客大巴</name>
+		<address>http://www.blogbus.com/</address>
+		<linkFormat>http://pindao.blogbus.com/[*]</linkFormat>
+		<depth>3</depth>
+		<downThreadNum>2</downThreadNum>
+		<startTime>2012-08-20 18:42:07</startTime>
+		<interMinute>10</interMinute>
+		<standMinute>20</standMinute>
+		<ServerAuth>false</ServerAuth>
+		<userBySA />
+		<pwdBySA />
+		<PageAuth>false</PageAuth>
+		<sendTypeByPA>1</sendTypeByPA>
+		<mainAddressByPA />
+		<loginAddressByPA />
+		<userByPA />
+		<userFieldByPA />
+		<pwdByPA />
+		<pwdFieldByPA />
+		<useProxy>false</useProxy>
+		<proxyAddress />
+		<proxyPort>80</proxyPort>
+		<proxyUser />
+		<proxyPwd />
+		<status>0</status>
+		<charset />
+		<advancedConfig>channel_category=社会
+domain_level=商业全国</advancedConfig>
+		<siteType>2</siteType>
+		<addressType>0</addressType>
+		<filterLinkFormat />
+		<overDomain>false</overDomain>
+		<limitDownDays>0</limitDownDays>
+		<keywordsFilter>false</keywordsFilter>
+		<keywordsExp />
+		<autoAnalyze>true</autoAnalyze>
+		<useZSTemplet>true</useZSTemplet>
+		<spiderName />
+		<dateAnalyzeType>0</dateAnalyzeType>
+		<typeID>1</typeID>
+		<categoryType>0</categoryType>
+		<categoryID>0</categoryID>
+		<templetVersion>0</templetVersion>
+		<msitetype>
+			<name>缺省类别</name>
+			<remark>系统默认类别,您可以创建其他的相关类别</remark>
+		</msitetype>
+	</msite>
+</app-site>
